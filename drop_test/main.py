@@ -24,7 +24,7 @@ def main():
 
     for line in data:
         sp = line.replace(" ", "").split(",")
-        print(f"min_num_of_drops({sp[0]}, {sp[1]}) => {min_num_of_drops(int(sp[0]), int(sp[1]))}")
+        print(min_num_of_drops(int(sp[0]), int(sp[1])))
 
 
 if __name__ == "__main__":

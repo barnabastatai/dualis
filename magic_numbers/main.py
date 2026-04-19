@@ -42,7 +42,7 @@ def main():
     data = Path("input.txt").read_text(encoding="utf-8").splitlines()
 
     for line in data:
-        print(f"next_magic_number({line}) => {next_magic_number(parse_line(line))}")
+        print(next_magic_number(parse_line(line)))
 
 
 if __name__ == "__main__":
